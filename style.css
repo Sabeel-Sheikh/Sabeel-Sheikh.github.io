@@ -63,7 +63,7 @@ a { color: inherit; }
   width: 240px; height: 240px; border-radius: 50%;
   border: 6px solid #fff; box-shadow: 0 10px 30px rgba(27, 42, 65, 0.15);
 }
-.photo { object-fit: cover; display: block; }
+.photo { object-fit: cover; object-position: center 35%; display: block; }
 .photo-fallback {
   display: none; align-items: center; justify-content: center;
   background: var(--navy); color: #fff;
